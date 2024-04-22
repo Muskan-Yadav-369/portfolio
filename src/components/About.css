@@ -1,0 +1,22 @@
+.about_container{
+    min-height:85vh;
+}
+
+.main_container {
+    background-color: beige;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.right_container img{
+    width: 430px;
+    height: 500px;
+}
+
+@media (max-width:449px) {
+    .right_container img{
+        max-width: 300px;
+        height: 400px;
+    }
+}
